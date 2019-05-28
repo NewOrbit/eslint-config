@@ -53,7 +53,7 @@
                 "Symbol": "Avoid using the `Symbol` type. Did you mean `symbol`?"
             }
         ],
-        "callable-types": true,
+        "prefer-function-type": "error",
         "class-name": true,
         "comment-format": {
             "options": [
