@@ -25,12 +25,14 @@
     },
     "rules": {
         "adjacent-overload-signatures": true,
-        "align": {
-            "options": [
-                "parameters",
-                "statements"
-            ]
-        },
+        "key-spacing": [
+            "error",
+            {
+                "beforeColon": false,
+                "afterColon": true,
+                "mode": "strict"
+            }
+        ],
         "array-type": {
             "options": [
                 "array"
