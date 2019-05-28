@@ -33,11 +33,10 @@
                 "mode": "strict"
             }
         ],
-        "array-type": {
-            "options": [
-                "array"
-            ]
-        },
+        "array-type": [
+            "error",
+            "array"
+        ],
         "arrow-parens": "off",
         "arrow-return-shorthand": true,
         "ban-types": {
