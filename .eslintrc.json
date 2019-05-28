@@ -24,7 +24,7 @@
         }
     },
     "rules": {
-        "adjacent-overload-signatures": true,
+        "adjacent-overload-signatures": "error",
         "key-spacing": [
             "error",
             {
@@ -54,7 +54,7 @@
             }
         ],
         "prefer-function-type": "error",
-        "class-name": true,
+        "class-name-casing": "error",
         "comment-format": {
             "options": [
                 "check-space"
