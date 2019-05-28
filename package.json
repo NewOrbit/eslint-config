@@ -1,12 +1,34 @@
 {
   "name": "eslint-config",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "description": "NewOrbit standard typescript ready eslint configuration",
+  "scripts": {},
+  "main": ".eslintrc.json",
+  "keywords": [
+    "eslint",
+    "typescript",
+    "neworbit",
+    "eslint-plugin-react",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser"
+  ],
+  "author": "NewOrbit Ltd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewOrbit/eslint-config.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/NewOrbit/eslint-config/issues"
+  },
+  "homepage": "https://github.com/NewOrbit/eslint-config#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0"
+  }
 }
