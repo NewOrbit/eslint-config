@@ -38,7 +38,10 @@
             "array"
         ],
         "arrow-parens": "off",
-        "arrow-return-shorthand": true,
+        "arrow-body-style": [
+            "error",
+            "as-needed"
+        ],
         "ban-types": {
             "options": [
                 [
