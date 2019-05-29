@@ -151,7 +151,7 @@
         "no-unsafe-finally": "error",
         "no-unused-expressions": "error",
         "no-use-before-define": "error",
-        "no-var-keyword": true,
+        "no-var": "error",
         "no-var-requires": true,
         "object-literal-key-quotes": {
             "options": [
