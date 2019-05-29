@@ -207,13 +207,6 @@
         "@typescript-eslint/type-annotation-spacing": { "before": false, "after": true },
         "@typescript-eslint/unified-signatures": "error",
         "use-isnan": "error",
-        "variable-name": {
-            "options": [
-                "ban-keywords",
-                "check-format",
-                "allow-pascal-case"
-            ]
-        },
         "whitespace": {
             "options": [
                 "check-branch",
