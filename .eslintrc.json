@@ -206,16 +206,6 @@
         "@typescript-eslint/explicit-function-return-type": "error",
         "@typescript-eslint/type-annotation-spacing": { "before": false, "after": true },
         "@typescript-eslint/unified-signatures": "error",
-        "use-isnan": "error",
-        "whitespace": {
-            "options": [
-                "check-branch",
-                "check-decl",
-                "check-operator",
-                "check-separator",
-                "check-type",
-                "check-typecast"
-            ]
-        }
+        "use-isnan": "error"
     }
 }
