@@ -158,7 +158,7 @@
             "consistent-as-needed"
         ],
         "object-shorthand": "error",
-        "object-literal-sort-keys": false,
+        "sort-keys":"off",
         "one-line": {
             "options": [
                 "check-catch",
