@@ -203,7 +203,7 @@
                 "null": "ignore"
             }
         ],
-        "typedef": false,
+        "@typescript-eslint/explicit-function-return-type": "error",
         "typedef-whitespace": {
             "options": [
                 {
