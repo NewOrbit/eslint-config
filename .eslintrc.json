@@ -192,7 +192,7 @@
             }
         ],
         "default-case": "error",
-        "trailing-comma": false,
+        "comma-dangle": ["error", "never"],
         "triple-equals": {
             "options": [
                 "allow-null-check"
