@@ -142,7 +142,6 @@
         "@typescript-eslint/no-misused-new": "error",
         "@typescript-eslint/no-namespace": "error",
         "no-parameter-properties": "off",
-        "no-reference": true,
         "no-reference-import": true,
         "no-require-imports": false,
         "no-shadowed-variable": true,
