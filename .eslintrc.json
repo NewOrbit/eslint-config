@@ -109,11 +109,14 @@
                 "code": 160
             }
         ],
-        "member-access": { "accessibility": "explicit" },
+        "member-access": {
+            "accessibility": "explicit"
+        },
         "member-ordering": {
-            "options": {
-                "order": "statics-first"
-            }
+            "default": [
+                "public-static-field",
+                "public-instance-method"
+            ]
         },
         "new-parens": "error",
         "no-angle-bracket-type-assertion": true,
