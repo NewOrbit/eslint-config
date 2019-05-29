@@ -94,11 +94,7 @@
           },
         "react/jsx-wrap-multilines": "error",
         "no-labels": "error",
-        "max-classes-per-file": {
-            "options": [
-                1
-            ]
-        },
+        "max-classes-per-file": ["error", 1],
         "max-line-length": {
             "options": [
                 160
