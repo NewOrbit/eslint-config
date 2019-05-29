@@ -192,12 +192,17 @@
             }
         ],
         "default-case": "error",
-        "comma-dangle": ["error", "never"],
-        "triple-equals": {
-            "options": [
-                "allow-null-check"
-            ]
-        },
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "eqeqeq": [
+            "error",
+            "always",
+            {
+                "null": "ignore"
+            }
+        ],
         "typedef": false,
         "typedef-whitespace": {
             "options": [
