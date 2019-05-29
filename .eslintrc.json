@@ -3,14 +3,12 @@
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react/recommended",
-        "plugin:jsx-a11y/recommended"
+        "plugin:react/recommended"
     ],
     "plugins": [
         "@typescript-eslint",
         "react",
         "react-hooks",
-        "jsx-a11y",
         "jsdoc"
     ],
     "settings": {
