@@ -3,13 +3,16 @@
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings"
     ],
     "plugins": [
         "@typescript-eslint",
         "react",
         "react-hooks",
-        "jsdoc"
+        "jsdoc",
+        "import"
     ],
     "settings": {
         "react": {
@@ -132,7 +135,7 @@
         "no-empty": "error",
         "@typescript-eslint/no-empty-interface": "error",
         "no-eval": "error",
-        "no-internal-module": true,
+        "import/no-internal-modules": [ "error" ],
         "no-invalid-this": "off",
         "no-misused-new": true,
         "no-namespace": true,
