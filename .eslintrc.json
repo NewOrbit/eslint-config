@@ -10,7 +10,8 @@
         "@typescript-eslint",
         "react",
         "react-hooks",
-        "jsx-a11y"
+        "jsx-a11y",
+        "jsdoc"
     ],
     "settings": {
         "react": {
@@ -65,9 +66,20 @@
             "error",
             4
         ],
-        "interface-name": false,
-        "interface-over-type-literal": false,
+        "interface-name-prefix": "never",
+        "prefer-interface": "off",
         "jsdoc-format": true,
+        "jsdoc/check-alignment": 1,
+        "jsdoc/check-examples": 1,
+        "jsdoc/check-indentation": 1,
+        "jsdoc/check-param-names": 1,
+        "jsdoc/check-syntax": 1,
+        "jsdoc/check-tag-names": 1,
+        "jsdoc/check-types": 1,
+        "jsdoc/require-param": 1,
+        "jsdoc/require-returns": 1,
+        "jsdoc/require-returns-type": 1,
+        "jsdoc/valid-types": 1,
         "jsx-alignment": true,
         "jsx-ban-props": [
             true,
