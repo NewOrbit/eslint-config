@@ -124,7 +124,7 @@
         "no-caller": "error",
         "no-bitwise": "error",
         "no-cond-assign": "error",
-        "no-consecutive-blank-lines": true,
+        "no-multiple-empty-lines": "error",
         "no-console": "error",
         "no-construct": true,
         "no-debugger": "error",
