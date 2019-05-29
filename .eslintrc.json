@@ -148,7 +148,7 @@
         "no-fallthrough": "off",
         "no-trailing-spaces": "error",
         "no-undef-init": "error",
-        "no-unsafe-finally": true,
+        "no-unsafe-finally": "error",
         "no-unused-expression": true,
         "no-use-before-declare": false,
         "no-var-keyword": true,
