@@ -153,7 +153,10 @@
         "no-use-before-define": "error",
         "no-var": "error",
         "@typescript-eslint/no-var-requires": "error",
-        "quote-props": ["error", "consistent-as-needed"],
+        "quote-props": [
+            "error",
+            "consistent-as-needed"
+        ],
         "object-literal-shorthand": true,
         "object-literal-sort-keys": false,
         "one-line": {
