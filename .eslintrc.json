@@ -58,7 +58,7 @@
         "spaced-comment": [2, "always"],
         "curly": "error",
         "complexity":"off",
-        "eofline": true,
+        "eol-last": "error",
         "forin": true,
         "import-spacing": true,
         "indent": [
