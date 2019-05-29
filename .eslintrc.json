@@ -126,7 +126,7 @@
         "no-cond-assign": "error",
         "no-multiple-empty-lines": "error",
         "no-console": "error",
-        "no-construct": true,
+        "no-new-wrappers": "error",
         "no-debugger": "error",
         "no-default-export": {
             "severity": "warning"
