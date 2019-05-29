@@ -135,7 +135,9 @@
         "no-empty": "error",
         "@typescript-eslint/no-empty-interface": "error",
         "no-eval": "error",
-        "import/no-internal-modules": [ "error" ],
+        "import/no-internal-modules": [
+            "error"
+        ],
         "no-invalid-this": "off",
         "no-misused-new": true,
         "no-namespace": true,
