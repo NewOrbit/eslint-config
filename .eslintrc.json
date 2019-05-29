@@ -157,7 +157,7 @@
             "error",
             "consistent-as-needed"
         ],
-        "object-literal-shorthand": true,
+        "object-shorthand": "error",
         "object-literal-sort-keys": false,
         "one-line": {
             "options": [
