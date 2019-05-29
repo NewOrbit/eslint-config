@@ -109,7 +109,7 @@
                 "code": 160
             }
         ],
-        "member-access": true,
+        "member-access": { "accessibility": "explicit" },
         "member-ordering": {
             "options": {
                 "order": "statics-first"
