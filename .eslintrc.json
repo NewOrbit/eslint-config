@@ -205,7 +205,7 @@
         ],
         "@typescript-eslint/explicit-function-return-type": "error",
         "@typescript-eslint/type-annotation-spacing": { "before": false, "after": true },
-        "unified-signatures": true,
+        "@typescript-eslint/unified-signatures": "error",
         "use-isnan": "error",
         "variable-name": {
             "options": [
