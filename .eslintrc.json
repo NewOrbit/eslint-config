@@ -171,12 +171,13 @@
         "sort-imports": "off",
         "prefer-const": "error",
         "@typescript-eslint/prefer-for-of": "error",
-        "quotemark": {
-            "options": [
-                "double",
-                "avoid-escape"
-            ]
-        },
+        "quotemark": [
+            "error",
+            "double",
+            {
+                "avoidEscape": true
+            }
+        ],
         "radix": "error",
         "react-hooks-nesting": true,
         "semicolon": {
