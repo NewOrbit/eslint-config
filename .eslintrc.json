@@ -78,13 +78,6 @@
         "jsdoc/require-returns": 1,
         "jsdoc/require-returns-type": 1,
         "jsdoc/valid-types": 1,
-        "jsx-ban-props": [
-            true,
-            [
-                "style",
-                "use className and css"
-            ]
-        ],
         "react/jsx-boolean-value": "always",
         "react/jsx-curly-spacing": {"when": "never"},
         "react/jsx-equals-spacing": [
