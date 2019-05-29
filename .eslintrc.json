@@ -109,7 +109,7 @@
                 "code": 160
             }
         ],
-        "@typescript-eslint/member-access": {
+        "@typescript-eslint/explicit-member-accessibility": {
             "accessibility": "explicit"
         },
         "@typescript-eslint/member-ordering": {
