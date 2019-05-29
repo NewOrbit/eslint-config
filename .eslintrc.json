@@ -121,7 +121,7 @@
         "new-parens": "error",
         "no-angle-bracket-type-assertion": "error",
         "no-explicit-any": "off",
-        "no-arg": true,
+        "no-caller": "error",
         "no-bitwise": "error",
         "no-conditional-assignment": true,
         "no-consecutive-blank-lines": true,
