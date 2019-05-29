@@ -57,7 +57,7 @@
         "class-name-casing": "error",
         "spaced-comment": [2, "always"],
         "curly": "error",
-        "cyclomatic-complexity": false,
+        "complexity":"off",
         "eofline": true,
         "forin": true,
         "import-spacing": true,
