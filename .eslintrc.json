@@ -145,7 +145,7 @@
         "no-require-imports": "off",
         "no-shadow": "error",
         "no-throw-literal": "error",
-        "no-switch-case-fall-through": false,
+        "no-fallthrough": "off",
         "no-trailing-whitespace": true,
         "no-unnecessary-initializer": true,
         "no-unsafe-finally": true,
