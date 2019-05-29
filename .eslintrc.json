@@ -168,7 +168,7 @@
             }
         ],
         "prefer-arrow-callback": "error",
-        "ordered-imports": false,
+        "sort-imports": "off",
         "prefer-const": "error",
         "prefer-for-of": true,
         "quotemark": {
