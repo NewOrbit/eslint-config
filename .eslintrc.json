@@ -55,11 +55,7 @@
         ],
         "prefer-function-type": "error",
         "class-name-casing": "error",
-        "comment-format": {
-            "options": [
-                "check-space"
-            ]
-        },
+        "spaced-comment": [2, "always"],
         "curly": "error",
         "cyclomatic-complexity": false,
         "eofline": true,
