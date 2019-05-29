@@ -191,7 +191,7 @@
                 "named": "never"
             }
         ],
-        "switch-default": true,
+        "default-case": "error",
         "trailing-comma": false,
         "triple-equals": {
             "options": [
