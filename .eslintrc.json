@@ -123,7 +123,7 @@
         "no-explicit-any": "off",
         "no-caller": "error",
         "no-bitwise": "error",
-        "no-conditional-assignment": true,
+        "no-cond-assign": "error",
         "no-consecutive-blank-lines": true,
         "no-console": "error",
         "no-construct": true,
