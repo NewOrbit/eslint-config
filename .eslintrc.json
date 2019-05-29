@@ -78,7 +78,6 @@
         "jsdoc/require-returns": 1,
         "jsdoc/require-returns-type": 1,
         "jsdoc/valid-types": 1,
-        "jsx-alignment": true,
         "jsx-ban-props": [
             true,
             [
@@ -86,26 +85,21 @@
                 "use className and css"
             ]
         ],
-        "jsx-boolean-value": [
-            true,
-            "false"
-        ],
-        "jsx-curly-spacing": [
-            true,
+        "react/jsx-boolean-value": "always",
+        "react/jsx-curly-spacing": {"when": "never"},
+        "react/jsx-equals-spacing": [
             "never"
         ],
-        "jsx-equals-spacing": [
-            true,
-            "never"
-        ],
-        "jsx-key": true,
-        "jsx-no-bind": true,
-        "jsx-no-lambda": true,
-        "jsx-no-multiline-js": false,
-        "jsx-no-string-ref": true,
-        "jsx-self-close": true,
-        "jsx-space-before-trailing-slash": true,
-        "jsx-wrap-multiline": true,
+        "react/jsx-key": "error",
+        "react/jsx-no-bind": "error",
+        "react/no-string-refs": "error",
+        "react/jsx-tag-spacing": {
+            "closingSlash": "never",
+            "beforeSelfClosing": "always",
+            "afterOpening": "never",
+            "beforeClosing": "allow"
+          },
+        "react/jsx-wrap-multilines": "error",
         "label-position": true,
         "max-classes-per-file": {
             "options": [
