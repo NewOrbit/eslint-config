@@ -167,12 +167,7 @@
                 "const": "never"
             }
         ],
-        "only-arrow-functions": {
-            "options": [
-                "allow-declarations",
-                "allow-named-functions"
-            ]
-        },
+        "prefer-arrow-callback": "error",
         "ordered-imports": false,
         "prefer-const": "error",
         "prefer-for-of": true,
