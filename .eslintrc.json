@@ -120,7 +120,7 @@
         },
         "new-parens": "error",
         "no-angle-bracket-type-assertion": "error",
-        "no-any": false,
+        "no-explicit-any": "off",
         "no-arg": true,
         "no-bitwise": "error",
         "no-conditional-assignment": true,
