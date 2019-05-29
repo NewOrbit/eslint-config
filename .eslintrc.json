@@ -158,7 +158,15 @@
             "consistent-as-needed"
         ],
         "object-shorthand": "error",
-        "sort-keys":"off",
+        "sort-keys": "off",
+        "one-var": [
+            "error",
+            {
+                "var": "never",
+                "let": "never",
+                "const": "never"
+            }
+        ],
         "one-variable-per-declaration": {
             "options": [
                 "ignore-for-loop"
