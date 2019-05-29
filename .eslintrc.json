@@ -128,9 +128,6 @@
         "no-console": "error",
         "no-new-wrappers": "error",
         "no-debugger": "error",
-        "no-default-export": {
-            "severity": "warning"
-        },
         "no-duplicate-variable": true,
         "no-duplicate-super": true,
         "no-empty": "error",
