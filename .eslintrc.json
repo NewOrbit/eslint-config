@@ -144,7 +144,7 @@
         "no-parameter-properties": "off",
         "no-require-imports": "off",
         "no-shadow": "error",
-        "no-string-throw": true,
+        "no-throw-literal": "error",
         "no-switch-case-fall-through": false,
         "no-trailing-whitespace": true,
         "no-unnecessary-initializer": true,
