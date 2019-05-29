@@ -147,7 +147,7 @@
         "no-throw-literal": "error",
         "no-fallthrough": "off",
         "no-trailing-spaces": "error",
-        "no-unnecessary-initializer": true,
+        "no-undef-init": "error",
         "no-unsafe-finally": true,
         "no-unused-expression": true,
         "no-use-before-declare": false,
