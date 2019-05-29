@@ -54,9 +54,12 @@
         ],
         "prefer-function-type": "error",
         "class-name-casing": "error",
-        "spaced-comment": [2, "always"],
+        "spaced-comment": [
+            2,
+            "always"
+        ],
         "curly": "error",
-        "complexity":"off",
+        "complexity": "off",
         "eol-last": "error",
         "guard-for-in": "error",
         "object-curly-spacing": "error",
@@ -79,7 +82,9 @@
         "jsdoc/require-returns-type": 1,
         "jsdoc/valid-types": 1,
         "react/jsx-boolean-value": "always",
-        "react/jsx-curly-spacing": {"when": "never"},
+        "react/jsx-curly-spacing": {
+            "when": "never"
+        },
         "react/jsx-equals-spacing": [
             "never"
         ],
@@ -91,16 +96,19 @@
             "beforeSelfClosing": "always",
             "afterOpening": "never",
             "beforeClosing": "allow"
-          },
+        },
         "react/jsx-wrap-multilines": "error",
         "no-labels": "error",
-        "max-classes-per-file": ["error", 1],
+        "max-classes-per-file": [
+            "error",
+            1
+        ],
         "max-len": [
             "error",
             {
-              "code": 160
+                "code": 160
             }
-          ],
+        ],
         "member-access": true,
         "member-ordering": {
             "options": {
