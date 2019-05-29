@@ -179,11 +179,10 @@
             }
         ],
         "radix": "error",
-        "semicolon": {
-            "options": [
-                "always"
-            ]
-        },
+        "semi": [
+            "error",
+            "always"
+        ],
         "space-before-function-paren": [
             "error",
             {
