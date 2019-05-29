@@ -204,24 +204,7 @@
             }
         ],
         "@typescript-eslint/explicit-function-return-type": "error",
-        "typedef-whitespace": {
-            "options": [
-                {
-                    "call-signature": "nospace",
-                    "index-signature": "nospace",
-                    "parameter": "nospace",
-                    "property-declaration": "nospace",
-                    "variable-declaration": "nospace"
-                },
-                {
-                    "call-signature": "onespace",
-                    "index-signature": "onespace",
-                    "parameter": "onespace",
-                    "property-declaration": "onespace",
-                    "variable-declaration": "onespace"
-                }
-            ]
-        },
+        "@typescript-eslint/type-annotation-spacing": { "before": false, "after": true },
         "unified-signatures": true,
         "use-isnan": "error",
         "variable-name": {
