@@ -159,15 +159,6 @@
         ],
         "object-shorthand": "error",
         "sort-keys":"off",
-        "one-line": {
-            "options": [
-                "check-catch",
-                "check-else",
-                "check-finally",
-                "check-open-brace",
-                "check-whitespace"
-            ]
-        },
         "one-variable-per-declaration": {
             "options": [
                 "ignore-for-loop"
