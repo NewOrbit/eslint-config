@@ -93,7 +93,7 @@
             "beforeClosing": "allow"
           },
         "react/jsx-wrap-multilines": "error",
-        "label-position": true,
+        "no-labels": "error",
         "max-classes-per-file": {
             "options": [
                 1
