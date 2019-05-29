@@ -95,11 +95,12 @@
         "react/jsx-wrap-multilines": "error",
         "no-labels": "error",
         "max-classes-per-file": ["error", 1],
-        "max-line-length": {
-            "options": [
-                160
-            ]
-        },
+        "max-len": [
+            "error",
+            {
+              "code": 160
+            }
+          ],
         "member-access": true,
         "member-ordering": {
             "options": {
