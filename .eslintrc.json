@@ -59,7 +59,7 @@
         "curly": "error",
         "complexity":"off",
         "eol-last": "error",
-        "forin": true,
+        "guard-for-in": "error",
         "import-spacing": true,
         "indent": [
             "error",
