@@ -179,7 +179,6 @@
             }
         ],
         "radix": "error",
-        "react-hooks-nesting": true,
         "semicolon": {
             "options": [
                 "always"
