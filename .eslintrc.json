@@ -60,7 +60,7 @@
         "complexity":"off",
         "eol-last": "error",
         "guard-for-in": "error",
-        "import-spacing": true,
+        "object-curly-spacing": "error",
         "indent": [
             "error",
             4
