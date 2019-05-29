@@ -129,7 +129,6 @@
         "no-new-wrappers": "error",
         "no-debugger": "error",
         "no-redeclare": "error",
-        "no-duplicate-super": true,
         "no-empty": "error",
         "no-empty-interface": true,
         "no-eval": "error",
