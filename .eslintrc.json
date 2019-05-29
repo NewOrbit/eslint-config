@@ -167,11 +167,6 @@
                 "const": "never"
             }
         ],
-        "one-variable-per-declaration": {
-            "options": [
-                "ignore-for-loop"
-            ]
-        },
         "only-arrow-functions": {
             "options": [
                 "allow-declarations",
