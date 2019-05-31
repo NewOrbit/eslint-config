@@ -9,10 +9,7 @@
     "plugin",
     "configuration",
     "typescript",
-    "neworbit",
-    "eslint-plugin-react",
-    "@typescript-eslint/eslint-plugin",
-    "@typescript-eslint/parser"
+    "neworbit"
   ],
   "author": "NewOrbit Ltd",
   "repository": {
