@@ -3,8 +3,7 @@
 ESLint configuration for NewOrbit
 
 ## Installation
-
-`npm install eslint-config-neworbit --save-dev`
+`npm install eslint eslint-config-neworbit --save-dev`
 
 ## Setup
 
