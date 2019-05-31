@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-neworbit",
   "version": "0.0.1",
   "description": "NewOrbit standard typescript ready eslint configuration",
   "scripts": {},
@@ -29,7 +29,6 @@
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsdoc": "^7.2.0",
-    "eslint-plugin-prefer-arrow": "^1.1.5",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
     "typescript": "^3.4.5"
