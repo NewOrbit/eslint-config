@@ -4,7 +4,7 @@ ESLint configuration for NewOrbit
 
 ## Installation
 
-`npm install neworbit-eslint-config --save-dev`
+`npm install eslint-config-neworbit --save-dev`
 
 ## Setup
 
@@ -13,7 +13,7 @@ Add `.eslintrc.json` file with the following contents:
 ```json
 {
     "extends": [
-        "neworbit-eslint-config"
+        "neworbit"
     ]
 }
 ```
