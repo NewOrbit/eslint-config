@@ -42,7 +42,7 @@
         ],
         "@typescript-eslint/array-type": [
             "error",
-            "array"
+            { "default": "array" }
         ],
         "arrow-parens": "off",
         "@typescript-eslint/ban-types": [
@@ -165,7 +165,13 @@
             }
         ],
         "new-parens": "error",
-        "@typescript-eslint/no-angle-bracket-type-assertion": "error",
+        "@typescript-eslint/consistent-type-assertions": [
+            "error",
+            {
+                "assertionStyle": "as",
+                "objectLiteralTypeAssertions": "never"
+            }
+        ],
         "@typescript-eslint/no-explicit-any": "off",
         "no-caller": "error",
         "no-bitwise": "error",
@@ -187,7 +193,7 @@
         "@typescript-eslint/no-namespace": "error",
         "@typescript-eslint/no-parameter-properties": "error",
         "no-parameter-properties": "off",
-        "@typescript-eslint/no-triple-slash-reference": "error",
+        "@typescript-eslint/triple-slash-reference": "error",
         "no-require-imports": "off",
         "no-shadow": "error",
         "dot-notation": "error",
