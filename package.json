@@ -2,8 +2,13 @@
   "name": "eslint-config-neworbit",
   "version": "0.0.2",
   "description": "NewOrbit standard typescript ready eslint configuration",
-  "scripts": {},
+  "scripts": {
+    "test": "eslint \"./tests/**/*.ts\""
+  },
   "main": ".eslintrc.json",
+  "files": [
+    ".eslintrc.json"
+  ],
   "keywords": [
     "eslint",
     "plugin",
@@ -22,16 +27,18 @@
   "homepage": "https://github.com/NewOrbit/eslint-config#readme",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "@typescript-eslint/parser": "^1.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
     "eslint-config-react": "^1.1.7",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsdoc": "^7.2.0",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "react": "^16.12.0",
+    "typescript": "^3.7.2"
   },
   "peerDependencies": {
     "eslint": "^5.0.0"
