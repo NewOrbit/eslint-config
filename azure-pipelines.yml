@@ -1,0 +1,21 @@
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+trigger:
+- master
+
+steps:
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    workingDir: ./
+    verbose: false
+    customCommand: 'npm ci'
+
+- task: Npm@1
+  displayName: 'npm test'
+  inputs:
+    command: custom
+    workingDir: ./
+    verbose: false
+    customCommand: 'run test'
