@@ -148,8 +148,8 @@
         "dot-notation": "error",
         "eol-last": "error",
         "eqeqeq": [
-            "always",
             "error",
+            "always",
             {
                 "null": "ignore"
             }
@@ -249,12 +249,12 @@
         ],
         "prefer-const": "error",
         "quote-props": [
-            "consistent-as-needed",
-            "error"
+            "error",
+            "consistent-as-needed"
         ],
         "quotes": [
-            "double",
             "error",
+            "double",
             {
                 "avoidEscape": true
             }
@@ -293,8 +293,8 @@
         "react/prop-types": "off",
         "react/forbid-dom-props": [1, { "forbid": ["style"] }],
         "semi": [
-            "always",
-            "error"
+            "error",
+            "always"
         ],
         "sort-imports": "off",
         "sort-keys": "off",
@@ -307,8 +307,8 @@
             }
         ],
         "spaced-comment": [
-            "always",
-            2
+            2,
+            "always"
         ],
         "use-isnan": "error"
     }
