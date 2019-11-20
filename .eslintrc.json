@@ -161,6 +161,12 @@
         "import/no-duplicates": "off",
         "import/no-internal-modules": "off",
         "import/no-unresolved": "off",
+        "import/order": [
+            "error",
+            {
+                "newlines-between": "always-and-inside-groups"
+            }
+        ],
         "indent": [
             "error",
             4,
