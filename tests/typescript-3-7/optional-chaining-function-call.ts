@@ -1,0 +1,3 @@
+let myFunction: () => void;
+
+myFunction?.();

@@ -201,7 +201,7 @@
         "no-trailing-spaces": "error",
         "no-undef-init": "error",
         "no-unsafe-finally": "error",
-        "no-unused-expressions": "error",
+        "@typescript-eslint/no-unused-expressions": "error",
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/no-object-literal-type-assertion": "off",
