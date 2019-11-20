@@ -211,6 +211,7 @@
         "no-cond-assign": "error",
         "no-console": "error",
         "no-debugger": "error",
+        "no-dupe-class-members": "off",
         "no-empty": "error",
         "no-eval": "error",
         "no-fallthrough": "off",
