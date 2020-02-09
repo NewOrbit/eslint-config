@@ -222,6 +222,7 @@
         "no-new-wrappers": "error",
         "no-parameter-properties": "off",
         "no-redeclare": "error",
+        "no-return-await": "error",
         "no-require-imports": "off",
         "no-shadow": "error",
         "no-throw-literal": "error",
