@@ -205,7 +205,7 @@
                 "tabWidth": 4
             }
         ],
-        "max-lines": ["error", 500],
+        "max-lines": "error",
         "new-parens": "error",
         "no-bitwise": "error",
         "no-caller": "error",
