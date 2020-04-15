@@ -162,6 +162,7 @@
         "import/no-duplicates": "off",
         "import/no-internal-modules": "off",
         "import/no-unresolved": "off",
+        "import/no-self-import": "error",
         "import/order": [
             "error",
             {
