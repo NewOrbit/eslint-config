@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neworbit",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "NewOrbit standard typescript ready eslint configuration",
   "scripts": {
     "test": "eslint \"./tests/**/*.ts\""
