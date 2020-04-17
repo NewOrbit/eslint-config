@@ -220,7 +220,14 @@
         "no-fallthrough": "off",
         "no-invalid-this": "off",
         "no-labels": "error",
-        "no-multiple-empty-lines": "error",
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxEOF": 1,
+                "maxBOF": 0
+            }
+        ],
         "no-new-wrappers": "error",
         "no-parameter-properties": "off",
         "no-redeclare": "error",
