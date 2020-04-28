@@ -141,6 +141,7 @@
         ],
         "@typescript-eslint/unified-signatures": "error",
         "arrow-parens": "off",
+        "arrow-spacing": "error",
         "comma-dangle": "off",
         "complexity": "off",
         "constructor-super": "error",
@@ -193,6 +194,12 @@
                 "afterColon": true,
                 "beforeColon": false,
                 "mode": "strict"
+            }
+        ],
+        "keyword-spacing": [
+            "error",
+            {
+                "before": true
             }
         ],
         "max-classes-per-file": [
@@ -312,6 +319,7 @@
         ],
         "sort-imports": "off",
         "sort-keys": "off",
+        "space-before-blocks": "error",
         "space-before-function-paren": [
             "error",
             {
