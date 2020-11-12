@@ -78,6 +78,7 @@
       }
     ],
     "@typescript-eslint/naming-convention": [
+      "error",
       {
         "selector": "default",
         "format": ["camelCase"],
