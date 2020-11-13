@@ -77,28 +77,6 @@
         }
       }
     ],
-    "@typescript-eslint/naming-convention": [
-      "error",
-      {
-        "selector": "default",
-        "format": ["camelCase"],
-        "leadingUnderscore": "allow",
-        "trailingUnderscore": "allow"
-      },
-
-      {
-        "selector": "variable",
-        "format": ["camelCase", "UPPER_CASE"],
-        "leadingUnderscore": "allow",
-        "trailingUnderscore": "allow"
-      },
-
-      {
-        "selector": "typeLike",
-        "format": ["PascalCase"]
-      },
-      { "selector": "class", "format": ["PascalCase"] }
-    ],
     "@typescript-eslint/consistent-type-assertions": [
       "error",
       {
