@@ -22,7 +22,6 @@
     "import",
     "promise"
   ],
-
   "settings": {
     "react": {
       "pragma": "React",
@@ -210,7 +209,6 @@
       }
     ],
     "max-classes-per-file": ["error", 1],
-
     "max-len": [
       "error",
       {
