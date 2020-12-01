@@ -27,8 +27,8 @@
   "homepage": "https://github.com/NewOrbit/eslint-config#readme",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.8.2",
-    "@typescript-eslint/parser": "^4.8.2",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-react": "^1.1.7",
     "eslint-formatter-pretty": "^4.0.0",
