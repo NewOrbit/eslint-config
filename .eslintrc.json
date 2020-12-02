@@ -155,7 +155,13 @@
     "default-case": "error",
     "dot-notation": "error",
     "eol-last": "error",
-    "eqeqeq": ["error", "always"],
+    "eqeqeq": [
+      "error",
+      "always",
+      {
+        "null": "ignore"
+      }
+    ],
     "guard-for-in": "error",
     "import/named": "off",
     "import/namespace": "off",
