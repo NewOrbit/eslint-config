@@ -9,9 +9,7 @@
     "plugin:react-hooks/recommended",
     "plugin:eslint-comments/recommended",
     "plugin:promise/recommended",
-    "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint"
+    "prettier"
   ],
   "plugins": [
     "@typescript-eslint",
@@ -145,7 +143,10 @@
       }
     ],
     "@typescript-eslint/unified-signatures": "error",
-    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { "ignoreRestSiblings": true }
+    ],
     "arrow-parens": "off",
     "arrow-spacing": "error",
     "comma-dangle": "off",
