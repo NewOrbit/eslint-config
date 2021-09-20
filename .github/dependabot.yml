@@ -1,15 +1,7 @@
 version: 2
-registries:
-  neworbit-myget-npm:
-    type: npm-registry
-    url: https://www.myget.org/F/neworbit/npm/
-    token: ${{secrets.MYGET_TOKEN}}
-
 updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
       interval: daily
     open-pull-requests-limit: 20
-    registries:
-      - neworbit-myget-npm
