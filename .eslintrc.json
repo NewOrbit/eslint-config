@@ -156,7 +156,7 @@
     "default-case": "error",
     "dot-notation": "error",
     "eol-last": "error",
-    "eqeqeq": ["error", "always"],
+    "eqeqeq": ["error", "smart"],
     "guard-for-in": "error",
     "import/named": "off",
     "import/namespace": "off",
@@ -292,7 +292,13 @@
     "react/jsx-indent": ["off", 4],
     "react/jsx-indent-props": ["off", 4],
     "react/jsx-key": "error",
-    "react/jsx-no-bind": "error",
+    "react/jsx-no-bind": [
+      "error",
+      {
+        "ignoreDOMComponents": true,
+        "ignoreRefs": true
+      }
+    ],
     "react/jsx-tag-spacing": [
       "error",
       {
