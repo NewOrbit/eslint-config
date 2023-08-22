@@ -121,7 +121,7 @@
     "@typescript-eslint/no-misused-new": "error",
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-object-literal-type-assertion": "off",
-    "@typescript-eslint/no-parameter-properties": "error",
+    "@typescript-eslint/parameter-properties": "error",
     "@typescript-eslint/no-unused-expressions": "warn",
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-var-requires": "error",
@@ -332,6 +332,7 @@
     "no-extra-boolean-cast": "warn",
     "no-empty-pattern": "warn",
     "eslint-comments/disable-enable-pair": ["warn", { "allowWholeFile": true }],
-    "promise/catch-or-return": "off"
+    "promise/catch-or-return": "off",
+    "no-nested-ternary": "warn"
   }
 }
