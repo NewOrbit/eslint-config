@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neworbit",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "NewOrbit standard typescript ready eslint configuration",
   "scripts": {
     "test": "eslint \"./tests/**/*.ts\""
@@ -27,8 +27,8 @@
   "homepage": "https://github.com/NewOrbit/eslint-config#readme",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "@typescript-eslint/parser": "^6.4.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react": "^1.1.7",
     "eslint-formatter-pretty": "^5.0.0",
@@ -41,9 +41,9 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.47.0",
+    "eslint": "^8.49.0",
     "react": "^18.2.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "eslint": "8.x"
