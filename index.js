@@ -276,7 +276,7 @@ export default tseslint.config(
           named: "never",
         },
       ],
-      "spaced-comment": [2, "always"],
+      "spaced-comment": ["error", "always", { markers: ["/"] }],
       "use-isnan": "error",
       "no-prototype-builtins": "warn",
       "no-extra-boolean-cast": "warn",
