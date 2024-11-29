@@ -38,6 +38,7 @@ export default tseslint.config(
   },
   eslint.configs.recommended,
   tseslint.configs.recommended,
+  tseslint.configs.stylistic,
   importPluginFlatConfigs.recommended,
   jsdoc.configs["flat/recommended"],
   {
@@ -59,6 +60,23 @@ export default tseslint.config(
       "react/no-deprecated": "warn",
       "react/jsx-no-target-blank": "warn",
       "react/no-find-dom-node": "warn",
+      "@typescript-eslint/adjacent-overload-signatures": "error",
+      "@typescript-eslint/array-type": [
+        "error",
+        {
+          "default": "array"
+        }
+      ],
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
+        {
+          argsIgnorePattern: "^_",
+          caughtErrorsIgnorePattern: "^_",
+          destructuredArrayIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+          ignoreRestSiblings: true,
+        },
+      ],
       "arrow-parens": "off",
       "arrow-spacing": "error",
       "comma-dangle": "off",
