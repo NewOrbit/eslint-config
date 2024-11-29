@@ -6,8 +6,7 @@ import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
 import hooksPlugin from "eslint-plugin-react-hooks";
-// @ts-ignore
-import importPlugin from "eslint-plugin-import";
+import { flatConfigs as importPluginFlatConfigs } from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
 
 export default tseslint.config(
@@ -39,7 +38,7 @@ export default tseslint.config(
   },
   eslint.configs.recommended,
   tseslint.configs.recommended,
-  importPlugin.flatConfigs.recommended,
+  importPluginFlatConfigs.recommended,
   jsdoc.configs["flat/recommended"],
   {
     files: ["**/*.{js,jsx,ts,tsx}"],
@@ -90,7 +89,7 @@ export default tseslint.config(
           SwitchCase: "warn",
         },
       ],
-      "jsdoc/require-jsdoc" : "off",
+      "jsdoc/require-jsdoc": "off",
       "jsdoc/check-alignment": "warn",
       "jsdoc/check-indentation": "warn",
       "jsdoc/check-param-names": "warn",
