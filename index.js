@@ -64,8 +64,8 @@ export default tseslint.config(
       "@typescript-eslint/array-type": [
         "error",
         {
-          "default": "array"
-        }
+          default: "array",
+        },
       ],
       "@typescript-eslint/no-unused-vars": [
         "warn",
@@ -77,6 +77,27 @@ export default tseslint.config(
           ignoreRestSiblings: true,
         },
       ],
+      "@typescript-eslint/member-delimiter-style": [
+        "error",
+        {
+          multiline: {
+            delimiter: "semi",
+            requireLast: true,
+          },
+          singleline: {
+            delimiter: "semi",
+            requireLast: false,
+          },
+        },
+      ],
+      "@typescript-eslint/member-ordering": [
+        "error",
+        {
+          default: ["public-instance-method", "public-static-field"],
+        },
+      ],
+      "@typescript-eslint/consistent-indexed-object-style": "off",
+      "@typescript-eslint/no-inferrable-types": "off",
       "arrow-parens": "off",
       "arrow-spacing": "error",
       "comma-dangle": "off",
