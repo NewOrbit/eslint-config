@@ -6,6 +6,7 @@ import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
 import hooksPlugin from "eslint-plugin-react-hooks";
+// @ts-ignore
 import importPlugin from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
 
