@@ -11,14 +11,26 @@ import importPlugin from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
 
 export default tseslint.config(
+  {
+    settings: {
+      react: {
+        pragma: "React",
+        version: "detect",
+      },
+    },
+  },
   // @ts-ignore
   {
     files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],
     // @ts-ignore
     ...reactPlugin.configs.flat.recommended,
     languageOptions: {
-      // @ts-ignore
-      ...reactPlugin.configs.flat.recommended.languageOptions,
+      parser: tseslint.parser,
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
       globals: {
         ...globals.serviceworker,
         ...globals.browser,
@@ -42,6 +54,12 @@ export default tseslint.config(
   },
   {
     rules: {
+      "import/prefer-default-export": "off",
+      "react/destructuring-assignment": "off",
+      "react/jsx-filename-extension": "off",
+      "react/no-deprecated": "warn",
+      "react/jsx-no-target-blank": "warn",
+      "react/no-find-dom-node": "warn",
       "arrow-parens": "off",
       "arrow-spacing": "error",
       "comma-dangle": "off",
@@ -69,20 +87,20 @@ export default tseslint.config(
         "error",
         4,
         {
-          SwitchCase: 1,
+          SwitchCase: "warn",
         },
       ],
-      "jsdoc/check-alignment": 1,
-      "jsdoc/check-examples": 1,
-      "jsdoc/check-indentation": 1,
-      "jsdoc/check-param-names": 1,
-      "jsdoc/check-syntax": 1,
-      "jsdoc/check-tag-names": 1,
-      "jsdoc/check-types": 1,
-      "jsdoc/require-param": 1,
-      "jsdoc/require-returns": 1,
-      "jsdoc/require-returns-type": 1,
-      "jsdoc/valid-types": 1,
+      "jsdoc/require-jsdoc" : "off",
+      "jsdoc/check-alignment": "warn",
+      "jsdoc/check-indentation": "warn",
+      "jsdoc/check-param-names": "warn",
+      "jsdoc/check-syntax": "warn",
+      "jsdoc/check-tag-names": "warn",
+      "jsdoc/check-types": "warn",
+      "jsdoc/require-param": "warn",
+      "jsdoc/require-returns": "warn",
+      "jsdoc/require-returns-type": "warn",
+      "jsdoc/valid-types": "warn",
       "key-spacing": [
         "error",
         {
@@ -127,8 +145,8 @@ export default tseslint.config(
       "no-multiple-empty-lines": [
         "error",
         {
-          max: 1,
-          maxEOF: 1,
+          max: "warn",
+          maxEOF: "warn",
           maxBOF: 0,
         },
       ],
