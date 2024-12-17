@@ -8,6 +8,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
 import hooksPlugin from "eslint-plugin-react-hooks";
 import { flatConfigs as importPluginFlatConfigs } from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
+import pluginPromise from "eslint-plugin-promise";
 
 export default tseslint.config(
   {
@@ -41,6 +42,7 @@ export default tseslint.config(
   tseslint.configs.stylistic,
   importPluginFlatConfigs.recommended,
   jsdoc.configs["flat/recommended"],
+  pluginPromise.configs["flat/recommended"],
   {
     files: ["**/*.{js,jsx,ts,tsx}"],
     plugins: {
