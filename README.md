@@ -1,67 +1,41 @@
 # eslint-config-neworbit
-
 ESLint configuration for NewOrbit
 
 ## Installation
 `npm install eslint eslint-config-neworbit --save-dev`
 
 ## Setup
+Add `eslint.config.js` or extend existing one. Documentation: [Eslint documentation](https://eslint.org/docs/latest/use/getting-started#configuration)
+```js
+// @ts-check
+import NewOrbitEslintConfig from "eslint-config-neworbit";
 
-Add `.eslintrc.json` file with the following contents:
-
-```json
-{
-    "extends": [
-        "neworbit"
-    ]
-}
+export default [
+    ...NewOrbitEslintConfig,
+    /* rest of your config, e.g.:
+    {
+        plugins: {
+            "react-refresh": ReactRefreshPlugin,
+        },
+        rules: {
+            "react-refresh/only-export-components": "warn",
+        },
+    },
+    */
+];
 ```
 
-Setup a lint script in your `package.json` something like this:
+You are ready to use it from [eslint CLI](https://eslint.org/docs/latest/use/command-line-interface), by e.g. adding a script to your `package.json`
 ```json
 {
     ...
     "scripts": {
         ...
-        "lint:typescript": "eslint \"./**/*.{ts,tsx}\""
+        "lint:ts": "eslint --max-warnings 0 -c eslint.config.js \"./**/*.{js,jsx,ts,tsx, mjs, mts, mjsx, mtsx}\"",
     }
 }
 ```
-
-## VS Code setup
-
-- Install the ESLint extension for VS Code
-- Make sure you have TypeScript files included in your settings:
-
-    ```json
-        "eslint.validate": [
-            "javascript",
-            "javascriptreact",
-            "typescript",
-            "typescriptreact"
-        ]
-    ```
-
-- If your `package.json` and `.eslintrc.json` files aren't in the root directory you open in VS Code you may need to add working directories in your workspace settings:
-
-```json
-{
-    ...
-    "settings": {
-        ...
-        "eslint.workingDirectories": [
-            {
-                "directory": "{FOLDER_THAT_CONTAINS_CONFIG}"
-            }
-        ],
-    }
-}
-```
-
-## Migrating from TSLint
-
-For mapping TSLint rule overrides in your own project to the equivalent ESLint rules please refer to the [map](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md). If you cannot find the rule simply Google it as ESLint is plugin based and there is likely a plugin offering the required functionality.
+Or you can use it from VS Code by downloading [Microsoft ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## License
-
-Made with :sparkling_heart: by [NewOrbit](https://www.neworbit.co.uk/) in Oxfordshire, and licensed under the [MIT Licence](LICENCE)
+Made with :sparkling_heart: by [NewOrbit](https://www.neworbit.co.uk/) in Oxfordshire, and licensed under the [MIT Licence](LICENCE).
