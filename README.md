@@ -3,18 +3,22 @@ ESLint configuration for NewOrbit
 
 ## Installation
 
-```sh
-# npm
-npm install eslint eslint-config-neworbit --save-dev
+### npm
 
-# pnpm
-pnpm add -D eslint eslint-config-neworbit
+```sh
+npm install --save-dev eslint eslint-config-neworbit typescript-eslint eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-promise
 ```
 
-This package requires the following peer dependencies. Your package manager will install them automatically, but you can pin specific versions if needed:
+For React projects, also add:
 
 ```sh
-pnpm add -D typescript-eslint eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-promise
+npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
+```
+
+### pnpm
+
+```sh
+pnpm add -D eslint eslint-config-neworbit typescript-eslint eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-promise
 ```
 
 For React projects, also add:
@@ -22,6 +26,8 @@ For React projects, also add:
 ```sh
 pnpm add -D eslint-plugin-react eslint-plugin-react-hooks
 ```
+
+> **Tip:** Declaring the peer dependencies explicitly in your `package.json` is optional, but worth doing if you use an automated update tool like Dependabot or Renovate — they can only track what's explicitly listed there.
 
 ## Setup
 
