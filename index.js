@@ -8,6 +8,7 @@ import { defineConfig } from "eslint/config";
 import hooksPlugin from "eslint-plugin-react-hooks";
 import { flatConfigs as importPluginFlatConfigs } from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
+// @ts-expect-error -- eslint-plugin-promise ships no type declarations
 import pluginPromise from "eslint-plugin-promise";
 
 const _baseConfigs = defineConfig(
@@ -138,10 +139,8 @@ const _reactConfigs = defineConfig(
             },
         },
     },
-    // @ts-ignore
     {
         files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],
-        // @ts-ignore
         ...reactPlugin.configs.flat.recommended,
         languageOptions: {
             parser: tseslint.parser,
@@ -156,6 +155,7 @@ const _reactConfigs = defineConfig(
         files: ["**/*.{js,jsx,ts,tsx}"],
         ignores: ["**/*.{test,spec}.{js,jsx,ts,tsx}"],
         plugins: {
+            // @ts-expect-error -- react-hooks plugin type doesn't match ESLint's Plugin interface
             "react-hooks": hooksPlugin,
         },
         rules: {

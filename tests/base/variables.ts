@@ -16,7 +16,7 @@ const fallback = source ?? "default";
 const obj: { nested?: { value: string } } = {};
 const nested = obj.nested?.value;
 
-const optionalCall: (() => string) | undefined = undefined;
+const optionalCall: (() => string) | undefined = () => "hello";
 const result = optionalCall?.();
 
 export { greeting, count, isActive, length, first, second, remaining, fallback, nested, result };
