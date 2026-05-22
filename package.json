@@ -1,7 +1,8 @@
 {
   "name": "eslint-config-neworbit",
-  "version": "11.0.0",
+  "version": "12.0.0",
   "description": "NewOrbit standard typescript ready eslint configuration",
+  "packageManager": "pnpm@11.2.2",
   "scripts": {
     "test": "eslint -c ./index.js ./tests/**"
   },
@@ -28,20 +29,34 @@
   "homepage": "https://github.com/NewOrbit/eslint-config#readme",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3"
-  },
-  "peerDependencies": {
-    "eslint": "9.x"
+    "eslint": "^9.39.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsdoc": "^63.0.0",
+    "eslint-plugin-promise": "^7.3.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.4"
   },
   "dependencies": {
-    "@eslint/js": "^9.25.1",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsdoc": "^50.6.11",
-    "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "typescript-eslint": "^8.31.0"
+    "@eslint/js": "^9.39.4",
+    "globals": "^17.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "9.x",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsdoc": "^63.0.0",
+    "eslint-plugin-promise": "^7.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "typescript-eslint": "^8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
   }
 }
