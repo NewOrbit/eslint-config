@@ -4,12 +4,13 @@ import reactPlugin from "eslint-plugin-react";
 import globals from "globals";
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
+import { defineConfig } from "eslint/config";
 import hooksPlugin from "eslint-plugin-react-hooks";
 import { flatConfigs as importPluginFlatConfigs } from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
 import pluginPromise from "eslint-plugin-promise";
 
-const _baseConfigs = tseslint.config(
+const _baseConfigs = defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommended,
     tseslint.configs.stylistic,
@@ -128,7 +129,7 @@ const _baseConfigs = tseslint.config(
     },
 );
 
-const _reactConfigs = tseslint.config(
+const _reactConfigs = defineConfig(
     {
         settings: {
             react: {
@@ -194,4 +195,4 @@ const _reactConfigs = tseslint.config(
 
 export const base = _baseConfigs;
 export const react = _reactConfigs;
-export default tseslint.config(...base, ...react);
+export default defineConfig(...base, ...react);

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ES2022",
+        "lib": ["ES2022", "DOM"],
+        "jsx": "react-jsx",
+        "strict": true,
+        "noEmit": true,
+        "allowJs": true,
+        "checkJs": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "index.js",
+        "eslint.config.js",
+        "eslint.base.config.js",
+        "tests/**/*"
+    ]
+}
