@@ -33,32 +33,32 @@
   "homepage": "https://github.com/NewOrbit/eslint-config#readme",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^19.2.15",
-    "eslint": "^9.39.4",
+    "@types/react": "^19.2.18",
+    "eslint": "^9.39.5",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jsdoc": "^63.0.0",
+    "eslint-plugin-jsdoc": "^64.2.1",
     "eslint-plugin-promise": "^7.3.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "react": "^19.2.6",
+    "react": "^19.2.8",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.67.0"
   },
   "dependencies": {
-    "@eslint/js": "^9.39.4",
-    "globals": "^17.6.0"
+    "@eslint/js": "^9.39.5",
+    "globals": "^17.11.0"
   },
   "peerDependencies": {
     "eslint": "9.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsdoc": "63.x",
+    "eslint-plugin-jsdoc": "64.x",
     "eslint-plugin-promise": "7.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "7.x",
     "typescript-eslint": "8.x"
   },
   "engines": {
-    "node": "^22.13.0 || >=24"
+    "node": "^22.22.2 || >=24.15.0"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-react": {
