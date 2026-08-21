@@ -1,9 +1,14 @@
 {
   "name": "eslint-config-neworbit",
-  "version": "11.0.0",
+  "version": "12.0.0",
   "description": "NewOrbit standard typescript ready eslint configuration",
+  "packageManager": "pnpm@11.2.2",
   "scripts": {
-    "test": "eslint -c ./index.js ./tests/**"
+    "test:base": "eslint -c ./eslint.base.config.js \"./tests/base/**/*.ts\"",
+    "test:react": "eslint -c ./index.js \"./tests/react/**/*.tsx\"",
+    "test": "pnpm run test:base && pnpm run test:react",
+    "lint": "eslint",
+    "ts": "tsc --noEmit --diagnostics"
   },
   "type": "module",
   "main": "index.js",
@@ -28,20 +33,39 @@
   "homepage": "https://github.com/NewOrbit/eslint-config#readme",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3"
-  },
-  "peerDependencies": {
-    "eslint": "9.x"
+    "@types/react": "^19.2.18",
+    "eslint": "^9.39.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsdoc": "^64.2.1",
+    "eslint-plugin-promise": "^7.3.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "react": "^19.2.8",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.67.0"
   },
   "dependencies": {
-    "@eslint/js": "^9.25.1",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsdoc": "^50.6.11",
-    "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "typescript-eslint": "^8.31.0"
+    "@eslint/js": "^9.39.5",
+    "globals": "^17.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "9.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsdoc": "64.x",
+    "eslint-plugin-promise": "7.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "7.x",
+    "typescript-eslint": "8.x"
+  },
+  "engines": {
+    "node": "^22.22.2 || >=24.15.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
   }
 }
